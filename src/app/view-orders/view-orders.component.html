@@ -1,0 +1,17 @@
+<h1>{{customer.firstName}} {{customer.lastName}} 's Orders</h1>
+<br>
+<br>
+<br>
+<br>
+<table border=1px >
+    <th>Item</th>
+    <th>Cost</th>
+    <tr *ngFor ='let order of customer.orders'>
+        <td>{{order.productName}}</td>
+        <td>${{order.itemCost}}</td>    
+    </tr>
+    <tr>
+        <td>Total Cost</td>
+        <td></td>
+    </tr>
+</table>

@@ -1,0 +1,9 @@
+table{
+    width: 100%;
+    padding-top: 150px ;
+    border: 1px Solid black
+}
+
+table td{
+    width: 100%;
+}
